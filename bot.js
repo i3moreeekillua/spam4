@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
- client.user.setGame('s!help | *By iTzMoody','https://www.twitch.tv/peery13');
+ client.user.setGame('s!help | *By i3moreee','https://www.twitch.tv/peery13');
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -27,16 +27,16 @@ client.on('ready', () => {
   console.log('')
 });
 client.on('ready', async() => {
-var server = "499933149019766785"; 
-var channel = "499933149573283862";
+var server = "512873182198497300"; 
+var channel = "512873983553830913";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('كودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودز ')
     },305);
 })
 
 client.on('ready', async() => {
-var server = "499933149019766785"; 
-var channel = "499933149573283862";
+var server = "512873182198497300"; 
+var channel = "512873983553830913";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('#daily')
     },86400);
